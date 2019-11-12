@@ -17,6 +17,10 @@
   grid-gap: 10px 10px;
 }
 
+.active-sidebar-item > div{
+  background: #276749 !important;
+}
+
 .uml-category{
   max-width: 400px;
 }

@@ -18,12 +18,14 @@ const DiagramasPage = () => (
                 title="Estruturais"
                 description="São diagramas de caso de uso, e descrevem a funcionalidade do sistema a partir do ponto de vista do usuário.">
                 <Link to="/diagramas/classe">
-                    <Category title="Diagrama de Classes" />
+                    <Category title="Diagrama de Classes" image="https://image.flaticon.com/icons/svg/773/773228.svg" />
                 </Link>
                 <Link to="/diagramas/pacote">
-                    <Category title="Diagrama de Pacotes" />
+                    <Category title="Diagrama de Pacotes" image="https://image.flaticon.com/icons/svg/265/265729.svg" />
                 </Link>
-                <Category title="Diagrama de Objetos" />
+                <Link to="/diagramas/objeto">
+                    <Category title="Diagrama de Objetos" image="https://image.flaticon.com/icons/svg/2137/2137350.svg" />
+                </Link>
             </CategoryColumn>
             <CategoryColumn
                 title="Comportamentais"
@@ -31,9 +33,15 @@ const DiagramasPage = () => (
                     Utilizado para visualizar, especificar, construir e documentar aspectos dinâmicos de um devido sistema. 
                     Considerando aspectos dinâmicos de um sistema como representação das suas partes que passam por alteração.
                 `}>
-                <Category title="Diagrama de Casos de Uso" />
-                <Category title="Diagrama de Sequência" />
-                <Category title="Diagrama de Atividade" />
+                <Link to="/diagramas/caso_uso">
+                    <Category title="Diagrama de Casos de Uso" image="https://image.flaticon.com/icons/svg/773/773340.svg" />
+                </Link>
+                <Link to="/diagramas/sequencia">
+                    <Category title="Diagrama de Sequência" image="https://image.flaticon.com/icons/svg/1935/1935530.svg" />
+                </Link>
+                <Link to="/diagramas/atividade">
+                    <Category title="Diagrama de Atividade" image="https://image.flaticon.com/icons/svg/333/333656.svg" />
+                </Link>
             </CategoryColumn>
         </div>
     </Layout>

@@ -7,12 +7,12 @@ const Sidebar = () => (
             <img src={require('../images/logo.png')} alt="" />
         </div>
 
-        <Link to="/" activeClassName="bg-red-600">
+        <Link to="/" activeClassName="active-sidebar-item">
             <div className="text-white p-2 bg-green-600 hover:bg-green-800 text-lg cursor-pointer">
                 Home
             </div>
         </Link>
-        <Link to="/diagramas">
+        <Link to="/diagramas" activeClassName="active-sidebar-item">
             <div className="text-white p-2 bg-green-600 hover:bg-green-800 text-lg cursor-pointer">
                 Catálogo
             </div>
